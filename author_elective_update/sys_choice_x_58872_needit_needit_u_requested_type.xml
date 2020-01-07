@@ -1,96 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_requested_type" table="x_58872_needit_needit" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_requested_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Human Resources</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:18:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>de74b8aadb420010f89184da0b961963</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:18:05</sys_updated_on>
-            <value>hr</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_requested_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Facilties</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:18:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>da74b8aadb420010f89184da0b961965</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:18:05</sys_updated_on>
-            <value>facilties</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_requested_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Legal</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:18:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1674b8aadb420010f89184da0b961967</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:18:05</sys_updated_on>
-            <value>legal</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_requested_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Your Department Choice</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:18:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5e74b8aadb420010f89184da0b961968</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:18:05</sys_updated_on>
-            <value>your_choice</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="u_requested_type" table="x_58872_needit_needit" version="3">
+        <sys_choice_set action="DELETE">
             <element>u_requested_type</element>
             <name>x_58872_needit_needit</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:18:05</sys_created_on>
-            <sys_id>9674b8aadb420010f89184da0b961964</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_requested_type</sys_name>
-            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-            <sys_update_name>sys_choice_x_58872_needit_needit_u_requested_type</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:18:05</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2020-01-06 17:53:06</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>edbb9b4edb6cb3009df22f17d496191a</instance_id>
+        <instance_name>dev78517</instance_name>
+        <name>sys_choice_x_58872_needit_needit_u_requested_type</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_requested_type" table="x_58872_needit_needit" version="3"><sys_choice_set action="DELETE"><element>u_requested_type</element><name>x_58872_needit_needit</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2020-01-06 17:53:06</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>747042274</payload_hash>
+        <record_name>Task.u_requested_type</record_name>
+        <reverted_from/>
+        <source>876a2561db420010f89184da0b96190e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-01-06 17:53:06</sys_created_on>
+        <sys_id>0467413bdb020010f89184da0b9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f7bfd29820000001</sys_recorded_at>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-01-06 17:53:06</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>8c67413b7f02001050ca121182a709b8</update_guid>
+        <update_guid_history>8c67413b7f02001050ca121182a709b8:747042274,0c67413b7d020010352463e7502814b5:244053770,4c67413bda0200106a2fdd0392505ab2:2084038606,8c67413b2802001068af0cf90a09ddaf:-29213453,1674b8aa4b4200105dd3a541f55a406b:2003393197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-01-06 17:53:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>de67c13bdb020010f89184da0b9619c2</sys_id>
+        <sys_metadata>de67c13bdb020010f89184da0b9619c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_58872_needit_needit_u_requested_type</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_58872_needit_needit_u_requested_type">0467413bdb020010f89184da0b9619b9</sys_update_version>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-01-06 17:53:17</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

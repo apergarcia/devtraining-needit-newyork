@@ -5,76 +5,57 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Requested</label>
+            <label>Pending</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:22:07</sys_created_on>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0965f4eadb420010f89184da0b96197c</sys_id>
+            <sys_id>093aa9bbdb820010f89184da0b96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:22:07</sys_updated_on>
-            <value>13</value>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
+            <value>-5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Awaiting Approval</label>
+            <label>Open</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:22:07</sys_created_on>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0565f4eadb420010f89184da0b96197e</sys_id>
+            <sys_id>853aa9bbdb820010f89184da0b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:22:07</sys_updated_on>
-            <value>14</value>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Approved</label>
+            <label>Work in Progress</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:22:07</sys_created_on>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4d65f4eadb420010f89184da0b96197f</sys_id>
+            <sys_id>8d3aa9bbdb820010f89184da0b961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:22:07</sys_updated_on>
-            <value>15</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Awaiting Feedback</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:22:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9565f4eadb420010f89184da0b961981</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:22:07</sys_updated_on>
-            <value>16</value>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -84,15 +65,15 @@
             <label>Closed Complete</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
-            <sequence>4</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:22:07</sys_created_on>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>dd65f4eadb420010f89184da0b961982</sys_id>
+            <sys_id>853aa9bbdb820010f89184da0b961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:22:07</sys_updated_on>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -100,27 +81,103 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Withdrawn</label>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d3aa9bbdb820010f89184da0b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Skipped</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:22:07</sys_created_on>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d565f4eadb420010f89184da0b961984</sys_id>
+            <sys_id>853aa9bbdb820010f89184da0b961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:22:07</sys_updated_on>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d3aa9bbdb820010f89184da0b961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
             <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>reject</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c53aa9bbdb820010f89184da0b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>approve</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>013aa9bbdb820010f89184da0b96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
+            <value>10</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>state</element>
             <name>x_58872_needit_needit</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-01-02 19:22:07</sys_created_on>
-            <sys_id>cd65f4eadb420010f89184da0b96197c</sys_id>
+            <sys_created_on>2020-01-06 20:25:15</sys_created_on>
+            <sys_id>013aa9bbdb820010f89184da0b961960</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -128,7 +185,7 @@
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_choice_x_58872_needit_needit_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-01-02 19:22:07</sys_updated_on>
+            <sys_updated_on>2020-01-06 20:25:15</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
